@@ -17,6 +17,9 @@
 
   <title>Require Fun</title>
   <style type="text/css" media="screen">
+    html * {
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
     body {
       background:url(assets/escheresque_ste.png); 
       color: #e3e3e3;
@@ -38,7 +41,11 @@
       clear: left;
       margin-bottom:10px;
       background-color: #4e4e4e;
-      height: 90px;
+    }
+    .tweet:after {
+      content: "";
+      display: table;
+      clear: both;
     }
     .tweet p, img {
       float: right;
@@ -46,9 +53,12 @@
     .tweet img {
       margin-top: 18px;
       margin-right: 10px;
+      margin-bottom: 18px;
+      /*padding-left: 10px;*/
     }
     .tweet p {
-      width: 80%;
+      width: 75%;
+      padding-right: 15px;
     }
     
   </style>
