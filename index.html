@@ -2,9 +2,56 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <!-- template used to render our input box -->
   <script data-main="loader" charset="utf-8" src="components/requirejs/require.js"> </script>
 
   <title>Require Fun</title>
+  <style type="text/css" media="screen">
+    html * {
+      font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+    body {
+      background:url(assets/escheresque_ste.png); 
+      color: #e3e3e3;
+    }
+    #searchBox, .twitter-results {
+      width: 350px;
+      margin: auto;
+    }
+    input {
+      width: 326px;
+      padding: 10px;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+    .tweet:hover {
+      background-color: #8e8e8e;
+    }
+    .tweet {
+      clear: left;
+      margin-bottom:10px;
+      background-color: #4e4e4e;
+    }
+    .tweet:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .tweet p, img {
+      float: right;
+    }
+    .tweet img {
+      margin-top: 18px;
+      margin-right: 10px;
+      margin-bottom: 18px;
+      /*padding-left: 10px;*/
+    }
+    .tweet p {
+      width: 75%;
+      padding-right: 15px;
+    }
+    
+  </style>
   
 </head>
 <body>
