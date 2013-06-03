@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script type='text/template' id="search-box-template">
+    <label for="Search Twitter">Search Twitter</label>
+    <input type="text" name="Search Twitter" value="" id="twitter_search">
+  </script>
+  <script type='text/template' id="twitter_result">
+    <div class='tweet'>
+      <img src='<%= tweet.profile_image_url %>'>
+      <p class='text'><%= tweet.text %></p>
+    </div>
+  </script>
+  <script data-main="loader" charset="utf-8" src="components/requirejs/require.js"> </script>
+
+  <title>Require Fun</title>
+  
+</head>
+<body>
+    <div id='searchBox'> </div>
+    <div class='twitter-results'></div>
+  
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+{
+  "name": "bower",
+  "version": "0.0.0",
+  "main": "main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
