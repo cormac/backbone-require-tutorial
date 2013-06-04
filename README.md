@@ -1,22 +1,12 @@
-Backbone RequireJS example
-==========================
-A short example to illustrate the use of backbone and requireJs together.
+backbone-require-tutorial
+=========================
 
-The completed program is available on the master branch
+Contents
 
-The tutorial moves through the branches in this order
-
-- start
-  contains the file structure, html file and twitter search module, requireJs
-  config file is also in place
-- search
-  Search input view created
-- dispatcher
-  Global Event dispatcher created
-- router
-  Router added to the application
+- [start](https://github.com/cormac/backbone-require-tutorial/tree/start) 
+- [search](https://github.com/cormac/backbone-require-tutorial/tree/search)
+- [router](https://github.com/cormac/backbone-require-tutorial/tree/router) 
+- [dispatcher](https://github.com/cormac/backbone-require-tutorial/tree/dispatcher)
 - complete
-  Tweet display module created
 
-TODO: create tutorial content for each branch to bring you up to the next branch in the sequence
-
+### complete branch
