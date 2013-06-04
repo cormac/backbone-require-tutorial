@@ -10,7 +10,8 @@ The completed program is available on the master branch (this one!)
 
 The tutorial moves through the branches in this order
 
-- start
+- start: 
+
   contains the file structure, html file and twitter search module, requireJs
   config file is also in place
 - search
