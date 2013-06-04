@@ -65,9 +65,12 @@ We start off with an empty define function
 ```javascript
 define(
   [],// add module dependencies here
-  function() {//start the app here
+  function() {//start the app here - module callback function
 });
 ```
+Dependencies are defined in the first argument which is an array, values here should correspond with what we have defined in loader.js.
+
+The second argument is the module callback function. It is called when the module is included. The return value of the second argument will be our exported module, currently an empty object.
 
 The first thing we want to define for our app is a search box, whose module we'll call input and it will be stored in the lib directory
 
@@ -75,9 +78,11 @@ updating main.js gives us
 ```javascript
 define(
   ['lib/input'],// add module dependencies here
-  function(Input) {//start the app here
+  function(Input) {//start the app here - module callback function
 });
 ```
+
+
 
 Next let's look at creating the module itself
 
@@ -87,14 +92,12 @@ In your lib folder there is a file called input.js which looks like this:
 
 ```javascript
 define(
-  ['jquery', 'underscore', 'backbone', 'lib/dispatcher'],
-  function ($, _, Backbone, dispatcher) {
+  ['jquery', 'underscore', 'backbone'],
+  function ($, _, Backbone) { // - module callback function
     // expose our view as a module export
     return { };
 });
 ```
-we are defining our module with the listed dependencies in the first array arg.
-The return value of the second argument will be our exported module, currently an empty object.
 
 We want to return a backbone view that represents a search box, so lets create that
 
