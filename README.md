@@ -2,7 +2,11 @@ Backbone RequireJS example
 ==========================
 A short example to illustrate the use of backbone and requireJs together.
 
-The completed program is available on the master branch
+The intention is to show how requireJs can be used to organise our code into small well defined modules. 
+Backbone is used to organise the code within these modules and to provide communication between them via and event based
+communication architecture.
+
+The completed program is available on the master branch (this one!)
 
 The tutorial moves through the branches in this order
 
@@ -19,4 +23,5 @@ The tutorial moves through the branches in this order
   Tweet display module created
 
 TODO: create tutorial content for each branch to bring you up to the next branch in the sequence
+UPDATE: content there for start branch
 
