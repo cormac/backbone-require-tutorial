@@ -3,7 +3,9 @@ backbone-require-tutorial
 
 ### start branch
 
-This contains the skeleton file structure of the app with all requireJs config in place
+This contains the skeleton file structure of the app with all requireJs config in place. In this section we have already defined
+how our files will be structured and the external dependencies that the application has. We will go on to create a 
+module that creates and manages the input box used to get search terms to send to the twitter api.
 
 #### Files: 
 
