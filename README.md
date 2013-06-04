@@ -13,13 +13,13 @@ The tutorial moves through the branches in this order
 - [start:](https://github.com/cormac/backbone-require-tutorial/tree/start)
   contains the file structure, html file and twitter search module, requireJs
   config file is also in place
-- search: 
+- [search:](https://github.com/cormac/backbone-require-tutorial/tree/search) 
   Search input view created
-- dispatcher: 
+- [dispatcher:](https://github.com/cormac/backbone-require-tutorial/tree/dispatcher)
   Global Event dispatcher created
-- router: 
+- [router:](https://github.com/cormac/backbone-require-tutorial/tree/router)
   Router added to the application
-- complete: 
+- [complete:](https://github.com/cormac/backbone-require-tutorial/tree/complete) 
   Tweet display module created
 
 TODO: create tutorial content for each branch to bring you up to the next branch in the sequence
