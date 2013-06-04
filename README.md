@@ -23,5 +23,6 @@ The tutorial moves through the branches in this order
   Tweet display module created
 
 TODO: create tutorial content for each branch to bring you up to the next branch in the sequence
+
 UPDATE: content there for start branch
 
