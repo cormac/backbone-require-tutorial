@@ -80,8 +80,11 @@ define(
 ```
 
 Next let's look at creating the module itself
+
 - lib/input.js
+
 In your lib folder there is a file called input.js which looks like this:
+
 ```javascript
 define(
   ['jquery', 'underscore', 'backbone', 'lib/dispatcher'],
