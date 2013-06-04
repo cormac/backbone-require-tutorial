@@ -9,6 +9,6 @@ Contents
 - [router](https://github.com/cormac/backbone-require-tutorial/tree/router)
 - [complete](https://github.com/cormac/backbone-require-tutorial/tree/complete) 
 
-### search branch
+### dispatcher branch
 
 [Next >>>](https://github.com/cormac/backbone-require-tutorial/tree/router)
