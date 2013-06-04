@@ -3,10 +3,10 @@ backbone-require-tutorial
 
 Contents
 - start
-- [search:](https://github.com/cormac/backbone-require-tutorial/tree/search) 
-- [dispatcher:](https://github.com/cormac/backbone-require-tutorial/tree/dispatcher)
-- [router:](https://github.com/cormac/backbone-require-tutorial/tree/router)
-- [complete:](https://github.com/cormac/backbone-require-tutorial/tree/complete) 
+- [search](https://github.com/cormac/backbone-require-tutorial/tree/search) 
+- [dispatcher](https://github.com/cormac/backbone-require-tutorial/tree/dispatcher)
+- [router](https://github.com/cormac/backbone-require-tutorial/tree/router)
+- [complete](https://github.com/cormac/backbone-require-tutorial/tree/complete) 
 
 
 ### start branch
@@ -210,7 +210,7 @@ Here we've declared the function pressed to handle the event. When return is pre
 the console
 
 
-
+[Next >>>](https://github.com/cormac/backbone-require-tutorial/edit/search)
 
 
 
